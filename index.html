@@ -51,13 +51,8 @@
      };
      a.push(obj);
  }
- var margin = {
-     top: 10,
-     right: 10,
-     bottom: 20,
-     left: 40
- },
- width = 960 - margin.left - margin.right,
+ var margin = {top: 10,right: 10,bottom: 20,left: 40},
+     width = 960 - margin.left - margin.right,
      height = 500 - margin.top - margin.bottom;
  var x = d3.scale.linear()
      .domain([t - n + 2, t])

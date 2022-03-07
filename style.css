@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    font-size: 9pt;
+    line-height: 12pt;
+    background: #ffffff;
+    color: #555555;
+}
+.line1 {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1px;
+}
+.axis path, .axis line {
+    fill: none;
+    stroke: #555555;
+    shape-rendering: crispEdges;
+}
